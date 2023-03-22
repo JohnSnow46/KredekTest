@@ -1,3 +1,3 @@
-# Kredek-Test
+# KredekTest
 test repository for kredek
 
