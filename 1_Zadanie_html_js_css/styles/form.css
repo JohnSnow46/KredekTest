@@ -1,0 +1,47 @@
+/* styl dla elementów input */
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* styl dla przycisku zapisującego dane */
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+/* styl dla formularza */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+body {
+    background-color: #ADD8E6;
+}

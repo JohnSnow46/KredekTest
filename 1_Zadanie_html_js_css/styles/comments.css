@@ -1,0 +1,105 @@
+/* Set background color */
+body {
+  background-color: #f1f1f1;
+}
+
+/* Style navbar */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+/* Style headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Style form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="button"] {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="button"]:hover {
+  background-color: #fff;
+  color: #343a40;
+  border: 1px solid #343a40;
+}
+
+/* Style comments table */
+table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-x: auto;
+}
+
+thead {
+  background-color: #343a40;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 2rem;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 2rem;
+}
